@@ -1,0 +1,5 @@
+author: haruki.zaemon@gmail.com
+summary: Ensure that any Ruby on Rails controller action executed within a POST, PUT or DELETE request is wrapped in a transaction.
+homepage: http://github.com/harukizaemon/restful_transactions
+license: MIT
+rails_version: 2.2

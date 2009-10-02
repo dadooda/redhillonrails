@@ -1,0 +1,33 @@
+== 2.0.3 released 2009-01-14
+
+* Change package structure.
+
+== 2.0.2 released 2009-01-06
+
+* Fix busted gem configuration.
+
+== 2.0.0 released 2009-01-05
+
+* Brought up-to-date with Rails 2.2.
+
+== 2007-11-28
+
+* Workaround to ensure plugin is only ever loaded once.
+
+== 2007-03-15
+
+* Use ActionView::Helpers::AssetTagHelper::JAVASCRIPTS_DIR when searching for javascripts.
+* Load application after controller_name/action_name.
+
+== 2006-12-02
+
+* Use Rails 1.2 alias_method_chain.
+* Separate modules into individual files.
+
+== 2006-07-17
+
+* Placed code into module named after the class to which the mixin will be applied.
+
+== 2006-05-23
+
+* Added tests!

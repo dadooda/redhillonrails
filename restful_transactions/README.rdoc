@@ -1,0 +1,17 @@
+= Restful Transactions
+
+Restful Transactions is a Ruby on Rails plugin that wraps any controller action executed within a POST, PUT or DELETE request in a transaction.
+
+== Installation
+
+You have two choices for installation. The first uses a gem (recommended):
+
+  config.gem "harukizaemon-restful_transactions", :lib => "restful_transactions", :source => "http://gems.github.com"
+
+Or you can use the Rails plugin
+
+  $ ruby script/plugin install git://github.com/harukizaemon/restful_transactions.git
+
+=== License
+
+This plugin is copyright 2009 Simon Harris and is released under the MIT license.

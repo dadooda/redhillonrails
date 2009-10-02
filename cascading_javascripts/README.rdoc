@@ -1,0 +1,41 @@
+= Cascading Javascripts
+
+Cascading Javascripts is a plugin that enhances the behaviour of the built-in javascript_include_tag macro to include
+controller and action specific javascript files.
+
+If :cascades is passed as a parameter, the javascript_include_tag macro will load the following javascript files (if
+present) in order:
+
+1. controller_name/action_name.js (e.g. home.js, customers.js, etc.); and
+2. controller_name/action_name.js (eg. home/index.js, customers/new.js, etc.).
+
+This allows you to define application-wide and page-specific javascript files without needing to manually include each
+one.
+
+To use, simply call javascript_include_tag from application.html.erb including :cascades as a (or the only) parameter:
+
+  <html>
+    <head>
+      ...
+      <%= javascript_include_tag :cascades %>
+    </head>
+    ...
+  </html>
+
+== Installation
+
+You have two choices for installation. The first uses a gem (recommended):
+
+  config.gem "harukizaemon-cascading_javascripts", :lib => "cascading_javascripts", :source => "http://gems.github.com"
+
+Or you can use the Rails plugin
+
+  $ ruby script/plugin install git://github.com/harukizaemon/cascading_javascripts.git
+
+=== See Also
+
+* <b>Cascading Stylesheets:</b> http://github.com/harukizaemon/cascading_stylesheets
+
+=== License
+
+This plugin is copyright 2009 by Simon Harris and is released under the MIT license.

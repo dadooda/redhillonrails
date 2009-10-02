@@ -1,0 +1,19 @@
+== 2.0.2 released 2009-01-14
+
+* Change package structure.
+
+== 2.0.0 released 2009-01-07
+
+* Updated to Rails 2.2.2.
+
+== 2008-02-27
+
+* Ensure the filter goes to the start of the queue.
+
+== 2008-02-27
+
+* Wrap any any action executed within a POST, PUT or DELETE request rather than just create, update and delete actions. This is _actually_ RESTful.
+
+== 2008-01-13
+
+* Initial version.
